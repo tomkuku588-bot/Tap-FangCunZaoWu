@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>方寸造物 FANGCUN ZAOWU · 休闲游戏工作室</title>
+<meta name="description" content="方寸造物是一家专注休闲游戏的独立工作室。首作《方寸鞋匠铺》——刷掉鞋尖的泥，开一间街角修鞋铺。即将上线 TapTap，官网提供在线试玩。">
+<meta name="theme-color" content="#07070B">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32.png">
+<link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="方寸造物 FANGCUN ZAOWU · 休闲游戏工作室">
+<meta property="og:description" content="方寸之间 · 造物无穷。首作《方寸鞋匠铺》即将上线 TapTap，官网可在线试玩。">
+<meta property="og:image" content="https://tomkuku588-bot.github.io/Tap-FangCunZaoWu/assets/img/og-cover.jpg">
+<meta property="og:url" content="https://tomkuku588-bot.github.io/Tap-FangCunZaoWu/">
+<meta property="og:locale" content="zh_CN">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fastly.jsdelivr.net" crossorigin>
+<link rel="stylesheet" href="https://miaoda.feishu.cn/fonts/css2?family=Noto+Serif+SC:wght@600;700;900&family=Noto+Sans+SC:wght@300;400;500;700&family=Cinzel:wght@400;600;700&display=swap">
+<link rel="stylesheet" href="css/main.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "方寸造物",
+  "alternateName": "FANGCUN ZAOWU",
+  "description": "专注休闲游戏的独立工作室",
+  "slogan": "方寸之间 · 造物无穷"
+}
+</script>
+</head>
+<body>
+
+<!-- ===== 预加载 ===== -->
+<div id="preloader" aria-hidden="true">
+  <div class="pre-inner">
+    <img class="pre-emblem" src="assets/img/cube-emblem.webp" alt="">
+    <div class="pre-name">方寸造物</div>
+    <div class="pre-bar"><span id="pre-progress"></span></div>
+  </div>
+</div>
+
+<!-- ===== 自定义光标 ===== -->
+<div class="cursor-dot" aria-hidden="true"></div>
+<div class="cursor-ring" aria-hidden="true"></div>
+
+<!-- ===== 导航 ===== -->
+<header id="nav">
+  <a class="nav-brand" href="#home" data-nav>
+    <img src="assets/img/cube-emblem.webp" alt="方寸造物徽标">
+    <span class="brand-text">方寸造物<small>FANGCUN ZAOWU</small></span>
+  </a>
+  <nav class="nav-links" aria-label="主导航">
+    <a href="#home" data-nav>首页</a>
+    <a href="#works" data-nav>作品</a>
+    <a href="#about" data-nav>关于</a>
+    <a href="#contact" data-nav>联系</a>
+  </nav>
+  <a class="nav-cta" id="nav-taptap" href="#" target="_blank" rel="noopener" data-cursor>TapTap</a>
+  <button class="nav-burger" id="burger" aria-label="打开菜单" aria-expanded="false">
+    <span></span><span></span>
+  </button>
+</header>
+
+<!-- 移动端全屏菜单 -->
+<div id="mobile-menu" aria-hidden="true">
+  <nav class="mm-links" aria-label="移动端导航">
+    <a href="#home" data-nav><i>01</i>首页</a>
+    <a href="#works" data-nav><i>02</i>作品</a>
+    <a href="#about" data-nav><i>03</i>关于</a>
+    <a href="#contact" data-nav><i>04</i>联系</a>
+  </nav>
+  <div class="mm-foot">FANGCUN ZAOWU · 方寸之间 造物无穷</div>
+</div>
+
+<!-- ===== 主视图 ===== -->
+<main id="view-home" class="view active">
+
+  <!-- Hero -->
+  <section id="home" class="hero">
+    <div class="hero-bg" data-parallax="0.18">
+      <img src="assets/img/hero-kv.webp" alt="" fetchpriority="high" decoding="async">
+    </div>
+    <canvas id="dust" aria-hidden="true"></canvas>
+    <div class="hero-vignette" aria-hidden="true"></div>
+    <div class="hero-content">
+      <img class="hero-emblem" src="assets/img/cube-emblem.webp" alt="方寸造物金立方徽标" data-parallax="-0.1">
+      <p class="hero-en" data-reveal>FANGCUN ZAOWU GAME STUDIO</p>
+      <h1 class="hero-title" id="hero-title">方寸之间 · 造物无穷</h1>
+      <p class="hero-sub" data-reveal>以匠心打磨每一款休闲游戏<br>于方寸屏幕间，造温暖治愈之物</p>
+      <div class="hero-cta" data-reveal>
+        <a class="btn btn-gold magnetic" href="#works" data-nav data-cursor><span>探索作品</span></a>
+        <a class="btn btn-ghost magnetic" href="#about" data-nav data-cursor><span>关于我们</span></a>
+      </div>
+    </div>
+    <div class="hero-scroll" aria-hidden="true"><span></span>SCROLL</div>
+    <div class="hero-side" aria-hidden="true">CASUAL GAMES · CRAFTED WITH CARE</div>
+  </section>
+
+  <!-- 品牌跑马灯 -->
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee-track">
+      <span>方寸造物 <i>✦</i> 匠心打磨 <i>✦</i> 休闲解压 <i>✦</i> 温暖治愈 <i>✦</i> FANGCUN ZAOWU <i>✦</i>&nbsp;</span>
+      <span>方寸造物 <i>✦</i> 匠心打磨 <i>✦</i> 休闲解压 <i>✦</i> 温暖治愈 <i>✦</i> FANGCUN ZAOWU <i>✦</i>&nbsp;</span>
+    </div>
+  </div>
+
+  <!-- 作品 -->
+  <section id="works" class="section">
+    <div class="sec-head" data-reveal>
+      <span class="sec-index">01</span>
+      <div>
+        <p class="sec-en">WORKS</p>
+        <h2 class="sec-title">造物之作</h2>
+      </div>
+      <p class="sec-desc">每一款作品，都是一次对「小而美」的认真回答。</p>
+    </div>
+    <div id="games-grid" class="games-grid"><!-- 由 games.js 渲染 --></div>
+  </section>
+
+  <!-- 关于 -->
+  <section id="about" class="section section-about">
+    <div class="about-bg" aria-hidden="true"></div>
+    <div class="about-grid">
+      <div class="about-left">
+        <div class="sec-head" data-reveal>
+          <span class="sec-index">02</span>
+          <div>
+            <p class="sec-en">ABOUT</p>
+            <h2 class="sec-title">于方寸之间<br>造温暖之物</h2>
+          </div>
+        </div>
+        <p class="about-intro" id="studio-intro" data-reveal></p>
+        <div class="about-values">
+          <div class="value" data-reveal><b>匠心打磨</b><span>刷子划过鞋面的每一帧反馈，都反复调校到跟手为止。</span></div>
+          <div class="value" data-reveal><b>轻松治愈</b><span>不肝不氪，一两分钟一单，随时拿起、随时放下。</span></div>
+          <div class="value" data-reveal><b>持续创造</b><span>从街角鞋铺出发，更多温暖的小世界正在路上。</span></div>
+        </div>
+      </div>
+      <div class="about-right">
+        <div class="stats-panel" data-reveal>
+          <p class="stats-cap">首作《方寸鞋匠铺》内容量</p>
+          <div class="stats-grid" id="stats-grid"><!-- 由 games.js 渲染 --></div>
+          <div class="stats-note">
+            <img src="assets/img/game-icon.png" alt="方寸鞋匠铺图标">
+            <span>无账号 · 无内购 · 无广告 SDK<br>进度保存在本地，纯净单机体验</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 联系 / 页脚 -->
+  <footer id="contact" class="footer">
+    <div class="footer-cta" data-reveal>
+      <p class="sec-en">CONTACT</p>
+      <h2 class="footer-title">下一款作品，<br>与你一起期待</h2>
+      <a class="btn btn-gold magnetic" id="footer-taptap" href="#" target="_blank" rel="noopener" data-cursor><span>前往 TapTap 关注</span></a>
+    </div>
+    <div class="footer-bar">
+      <a class="nav-brand" href="#home" data-nav>
+        <img src="assets/img/cube-emblem.webp" alt="">
+        <span class="brand-text">方寸造物<small>FANGCUN ZAOWU</small></span>
+      </a>
+      <nav class="footer-links" aria-label="页脚导航">
+        <a href="#works" data-nav>作品</a>
+        <a href="#about" data-nav>关于</a>
+        <a href="play/fangcun-shoe-shop/" target="_blank" rel="noopener">在线试玩</a>
+      </nav>
+      <p class="copyright">© <span id="year">2026</span> 方寸造物 FANGCUN ZAOWU · All rights reserved.</p>
+    </div>
+  </footer>
+</main>
+
+<!-- ===== 游戏详情视图（hash 路由渲染） ===== -->
+<main id="view-game" class="view" aria-live="polite"></main>
+
+<!-- ===== 灯箱 ===== -->
+<div id="lightbox" aria-hidden="true" role="dialog" aria-label="截图预览">
+  <button class="lb-close" aria-label="关闭">×</button>
+  <button class="lb-prev" aria-label="上一张">‹</button>
+  <figure><img id="lb-img" src="" alt=""><figcaption id="lb-cap"></figcaption></figure>
+  <button class="lb-next" aria-label="下一张">›</button>
+</div>
+
+<script src="https://fastly.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+<script src="https://fastly.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+<script src="https://fastly.jsdelivr.net/npm/lenis@1.1.14/dist/lenis.min.js"></script>
+<script src="js/games.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+  <defs>
+    <radialGradient id="sky" cx="50%" cy="76%" r="82%">
+      <stop offset="0" stop-color="#39271a"/>
+      <stop offset=".48" stop-color="#171513"/>
+      <stop offset="1" stop-color="#0a0b0d"/>
+    </radialGradient>
+    <radialGradient id="horizonGlow" cx="50%" cy="88%" r="45%">
+      <stop offset="0" stop-color="#e5a954" stop-opacity=".72"/>
+      <stop offset=".28" stop-color="#a2662e" stop-opacity=".24"/>
+      <stop offset="1" stop-color="#a2662e" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="goldTop" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ae7230"/>
+      <stop offset=".28" stop-color="#f2c477"/>
+      <stop offset=".54" stop-color="#fff0bd"/>
+      <stop offset=".77" stop-color="#d99b48"/>
+      <stop offset="1" stop-color="#b97831"/>
+    </linearGradient>
+    <linearGradient id="goldLeft" x1="0" y1="0" x2=".9" y2="1">
+      <stop offset="0" stop-color="#f2c479"/>
+      <stop offset=".47" stop-color="#b87935"/>
+      <stop offset=".72" stop-color="#ffdb8d"/>
+      <stop offset="1" stop-color="#bd7932"/>
+    </linearGradient>
+    <linearGradient id="goldRight" x1="0" y1=".2" x2="1" y2="1">
+      <stop offset="0" stop-color="#fff0ba"/>
+      <stop offset=".36" stop-color="#d59a51"/>
+      <stop offset=".75" stop-color="#f5c97d"/>
+      <stop offset="1" stop-color="#ad682c"/>
+    </linearGradient>
+    <linearGradient id="letterGold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffe0a2"/>
+      <stop offset=".55" stop-color="#dba563"/>
+      <stop offset="1" stop-color="#e4aa64"/>
+    </linearGradient>
+    <radialGradient id="starGlow">
+      <stop offset="0" stop-color="#fffbea"/>
+      <stop offset=".13" stop-color="#fff1bc"/>
+      <stop offset=".4" stop-color="#f8b956" stop-opacity=".5"/>
+      <stop offset="1" stop-color="#f8ad43" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="ground" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8d592c"/>
+      <stop offset=".1" stop-color="#1e1b18"/>
+      <stop offset=".65" stop-color="#121416"/>
+      <stop offset="1" stop-color="#07090c"/>
+    </linearGradient>
+    <filter id="softBlur"><feGaussianBlur stdDeviation="14"/></filter>
+    <filter id="smallBlur"><feGaussianBlur stdDeviation="4"/></filter>
+  </defs>
+
+  
+
+  <g id="foreground">
+    <path d="M512 83 769 221 789 248v300l-66 38-26 15-175 100-36-15-65-36-135-80-52-29V249l24-28Z" fill="#f5ac4b" opacity=".17" filter="url(#softBlur)"/>
+    <path d="M514 82 768 221 594 319 535 286 665 215 514 130 360 215 569 331 514 362 258 221Z" fill="url(#goldTop)" stroke="#ffe6ad" stroke-width="2" stroke-linejoin="miter"/>
+    <path d="m258 221 256 142v31L258 243Z" fill="#855020"/>
+    <path d="m535 286 59 33v15l-59-33Zm59 33 174-98v19l-174 94Z" fill="#ad6d30"/>
+    <path d="M235 249 486 389v59l-116-65v40l116 59v204l-64-36V495l-52-29v48l-84 56-51-29 83-55V352l-83-47Z" fill="url(#goldLeft)" stroke="#ffd99a" stroke-width="1.6" stroke-linejoin="miter"/>
+    <path d="m235 305 83 47v134l-83 55Z" fill="#0e0d0c"/>
+    <path d="m370 383 116 65v34l-116-59Z" fill="#0e0d0c"/>
+    <path d="m370 466 52 29v155l-52-31Z" fill="#10100f" opacity=".88"/>
+    <path d="m486 389 28-26v338l-28-15Z" fill="#714419"/>
+    <path d="M789 249v299l-64 36V345l-127 72v77l-57 32V389Z" fill="url(#goldRight)" stroke="#ffe6ad" stroke-width="1.7" stroke-linejoin="miter"/>
+    <path d="m541 389-27-26v338l8-2V402Z" fill="#3e2b17"/>
+    <path d="m646 411 51 30v160L522 700v-65l124-68Z" fill="url(#goldRight)" stroke="#ffe1a6" stroke-width="1.7" stroke-linejoin="miter"/>
+    <path d="m646 411 51 30v160l-51-34Z" fill="#ad702f" opacity=".3"/>
+    <path d="M514 135c0 61-8 79-32 84-18 4-38 5-66 6 63 0 86 4 93 33l5 44c3-60 9-72 37-77 24-4 49-4 62-5-78 0-97-6-99-85Z" fill="url(#starGlow)" filter="url(#smallBlur)"/>
+    <path d="M514 143c1 54 7 71 33 77 11 3 29 4 47 5-57 0-73 8-80 65-3-52-12-63-58-67 44-3 54-18 58-80Z" fill="#ffe2a0"/>
+    <path d="M514 176c1 34 10 45 40 47-30 3-38 13-40 44-3-31-11-41-39-44 28-2 37-13 39-47Z" fill="#fff8db"/>
+    <path d="M259 221 514 83l253 138M235 249l251 140m55 0 248-140M286 570l84-56m52 136 64 36m36 14 175-99m28-17 64-36" fill="none" stroke="#fff1c6" stroke-opacity=".58" stroke-width="2"/>
+    <path d="M514 362v333m-28-307v298m55-296v136" fill="none" stroke="#f2b65e" stroke-opacity=".53" stroke-width="2"/>
+    <path d="M510 696h25" stroke="#ffe6a5" stroke-width="4" opacity=".8" filter="url(#smallBlur)"/>
+
+    <g fill="none" stroke="url(#letterGold)" stroke-width="11" stroke-linejoin="miter" stroke-linecap="butt">
+      
+      <path d="m296 724 1 20m-49 0 98 1m-57 14 48 1-3 51q-1 13-21 13m-18-78q-2 55-47 79"/>
+      
+      <path d="m393 750 100-1m-32-24v88q0 13-20 13m-32-55 23 25"/>
+      
+      <path d="m542 733 10 15m-19 16 26-1-2 39-21 16q16 10 36 8h64m-54-97-12 29m27-34v43m-30-22h65m-66 29h70m-65 12h58v29h-58z"/>
+      
+      <path d="m687 735-10 35m13-46v103m-13-76h39m-41 46 41-20m-7-46v93m36-99q-9 29-24 42m18-20h40l-2 64q-1 14-21 14m1-77q-10 31-34 52m46-52q-12 43-48 70"/>
+    </g>
+    <path d="M246 830h540" stroke="#e7a452" stroke-opacity=".07" stroke-width="15" filter="url(#softBlur)"/>
+  </g>
+</svg>

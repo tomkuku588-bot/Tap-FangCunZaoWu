@@ -1,0 +1,89 @@
+{
+  "music": [
+    {
+      "id": "shop_loop",
+      "ogg": "bgm_shop_loop.ogg",
+      "mp3Fallback": "bgm_shop_loop.mp3",
+      "loop": true,
+      "durationSeconds": 16
+    },
+    {
+      "id": "shop_morning",
+      "ogg": "bgm_shop_morning.ogg",
+      "mp3Fallback": "bgm_shop_morning.mp3",
+      "loop": true,
+      "durationSeconds": 16
+    },
+    {
+      "id": "workbench",
+      "ogg": "bgm_workbench.ogg",
+      "mp3Fallback": "bgm_workbench.mp3",
+      "loop": true,
+      "durationSeconds": 16
+    }
+  ],
+  "effects": [
+    {
+      "id": "brush",
+      "ogg": "sfx_brush.ogg",
+      "mp3Fallback": "sfx_brush.mp3"
+    },
+    {
+      "id": "coin",
+      "ogg": "sfx_coin.ogg",
+      "mp3Fallback": "sfx_coin.mp3"
+    },
+    {
+      "id": "complete",
+      "ogg": "sfx_complete.ogg",
+      "mp3Fallback": "sfx_complete.mp3"
+    },
+    {
+      "id": "customer",
+      "ogg": "sfx_customer.ogg",
+      "mp3Fallback": "sfx_customer.mp3"
+    },
+    {
+      "id": "doorbell",
+      "ogg": "sfx_doorbell.ogg",
+      "mp3Fallback": "sfx_doorbell.mp3"
+    },
+    {
+      "id": "foam",
+      "ogg": "sfx_foam.ogg",
+      "mp3Fallback": "sfx_foam.mp3"
+    },
+    {
+      "id": "lace",
+      "ogg": "sfx_lace.ogg",
+      "mp3Fallback": "sfx_lace.mp3"
+    },
+    {
+      "id": "polish",
+      "ogg": "sfx_polish.ogg",
+      "mp3Fallback": "sfx_polish.mp3"
+    },
+    {
+      "id": "repair",
+      "ogg": "sfx_repair.ogg",
+      "mp3Fallback": "sfx_repair.mp3"
+    },
+    {
+      "id": "spray",
+      "ogg": "sfx_spray.ogg",
+      "mp3Fallback": "sfx_spray.mp3"
+    },
+    {
+      "id": "upgrade",
+      "ogg": "sfx_upgrade.ogg",
+      "mp3Fallback": "sfx_upgrade.mp3"
+    },
+    {
+      "id": "water",
+      "ogg": "sfx_water.ogg",
+      "mp3Fallback": "sfx_water.mp3"
+    }
+  ],
+  "masters": "masters/*.flac",
+  "note": "OGG preferred, MP3 fallback for browser compatibility; FLAC is lossless source master."
+}

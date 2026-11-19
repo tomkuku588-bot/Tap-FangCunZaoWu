@@ -1,0 +1,25 @@
+{
+  "name": "方寸造物",
+  "short_name": "方寸造物",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon-512-maskable.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "theme_color": "#4b3f2f",
+  "background_color": "#4b3f2f",
+  "display": "standalone"
+}

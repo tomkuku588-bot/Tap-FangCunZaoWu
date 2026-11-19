@@ -1,0 +1,2 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="160" viewBox="0 0 160 160">
+<defs><filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="3"/></filter></defs><path d="M80 138L25 84Q-5 45 30 22q30-18 50 15 20-33 50-15 35 23 5 62z" fill="#fff7e7" stroke="#c56b70" stroke-width="8" stroke-linejoin="round"/></svg>

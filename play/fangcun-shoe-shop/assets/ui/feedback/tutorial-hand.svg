@@ -1,0 +1,2 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="160" viewBox="0 0 160 160">
+<defs><filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="3"/></filter></defs><path d="M78 138V66q0-12 12-12t12 12v38-58q0-12 12-12t12 12v58-42q0-12 12-12t12 12v48-24q0-12 12-12t12 12v48q0 54-52 54h-8q-25 0-38-22l-20-32q-8-13 4-21t20 3z" fill="#f0c69e" stroke="#956a4b" stroke-width="7" stroke-linejoin="round"/><path d="M115 10q20-15 38 0" fill="none" stroke="#f2b544" stroke-width="7" stroke-linecap="round"/></svg>

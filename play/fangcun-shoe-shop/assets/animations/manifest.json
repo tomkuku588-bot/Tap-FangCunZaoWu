@@ -1,0 +1,34 @@
+{
+  "foam": {
+    "texture": "spritesheets/foam-8frames.png",
+    "frameWidth": 128,
+    "frameHeight": 128,
+    "frameCount": 8,
+    "frameRate": 9,
+    "repeat": -1
+  },
+  "water": {
+    "texture": "spritesheets/water-8frames.png",
+    "frameWidth": 128,
+    "frameHeight": 128,
+    "frameCount": 8,
+    "frameRate": 12,
+    "repeat": -1
+  },
+  "coin": {
+    "texture": "spritesheets/coin-8frames.png",
+    "frameWidth": 128,
+    "frameHeight": 128,
+    "frameCount": 8,
+    "frameRate": 14,
+    "repeat": 0
+  },
+  "star": {
+    "texture": "spritesheets/star-8frames.png",
+    "frameWidth": 128,
+    "frameHeight": 128,
+    "frameCount": 8,
+    "frameRate": 12,
+    "repeat": 0
+  }
+}
